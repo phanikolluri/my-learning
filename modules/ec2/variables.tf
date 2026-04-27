@@ -9,7 +9,6 @@ variable "security_group_id" {
 variable "ami" {
   type = string
   description = "ami id"
-  default = "ami-0220d79f3f480ecf5"
 }
 
 variable "component" {}
