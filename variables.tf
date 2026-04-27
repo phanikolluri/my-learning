@@ -1,0 +1,6 @@
+variable "instances" {}
+variable "ami" {}
+
+
+
+
