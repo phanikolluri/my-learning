@@ -1,4 +1,4 @@
-output "instance" {
+output "instance_public" {
   value = aws_instance.my_instance.public_ip
 }
 
