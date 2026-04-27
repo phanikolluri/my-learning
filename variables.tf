@@ -1,5 +1,4 @@
 variable "instances" {}
-variable "ami" {}
 
 
 

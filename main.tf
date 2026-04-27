@@ -4,5 +4,4 @@ module "ec2" {
   component = each.key
   instance_type = each.value["instance_type"]
   security_group_id = [aws_security_group.main.id]
-  ami = var.ami
 }
